@@ -23,7 +23,7 @@ nav {
 }
 .akglogo{
     width: 100px;
-    padding: 10px;
+    margin: 10px;
 }
 .nav-list ul{
     text-align: right;
@@ -61,4 +61,15 @@ nav {
 .nav-list ul li:hover .dropdown ul li{
     text-align: left;
     padding-left:2%;
+}
+.quality{
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    border-radius: 5px;
+    border-color: red;
+    padding: 15px;
+}
+.about{
+    padding: 20px;
 }
