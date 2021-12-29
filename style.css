@@ -75,12 +75,23 @@ nav {
 }
 .about{
     padding: 20px;
+    text-align: center;
+
+    }
 
 }
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 body{
     line-height: 1.5;
     font-family: 'Poppins',sans-serif;
+}
+.placements{
+    padding: 20px;
+    text-align: center;
+
+}
+.campus{
+    padding: 20px;
 }
 .container{
     max-width: 1170px;
@@ -94,8 +105,54 @@ ul{
     list-style: none;
 
 }
+#slideshow {
+    overflow: hidden;
+    height: 510px;
+    width: 728px;
+    margin: 0 auto;
+  }
+   
+
+  .slide {
+    float: left;
+    height: 510px;
+    width: 728px;
+  }
+   
+  
+  .slide-wrapper {
+    width: calc(728px * 5);
+   
+    animation: slide 10s ease infinite;
+  }
+   
+  
+  
+  
+  @keyframes slide {
+     
+    20% {
+      margin-left: 0px;
+    }
+   
+    40% {
+      margin-left: calc(-728px * 1);
+    }
+   
+    60% {
+      margin-left: calc(-728px * 2);
+    }
+   
+    80% {
+      margin-left: calc(-728px * 3);
+    }
+      100%{
+          margin-left: calc(-728px * 4);
+      }
+    
+  }
 .footer{
-    background-color: #24262b;
+    background-color: #191970;
     padding: 75px 0;
     }
 .footer-col{
