@@ -63,7 +63,7 @@ nav {
 .nav-list ul li:hover .dropdown ul li{
     text-align: left;
     padding-left:2%;
-    background-color: chocolate;
+    background-color: violet;
 }
 .quality{
     background-color: black;
@@ -74,9 +74,20 @@ nav {
     padding: 15px;
 }
 .about{
+    display: flex;
     padding: 20px;
-    text-align: center;
-
+    align-items: center;
+    justify-content: center;
+}
+    img{
+        max-width: 100%;
+    }
+    .pic{
+        flex-basis: 40%;
+    }
+    .text{
+        
+        padding-left: 20px;
     }
 
 }
@@ -125,28 +136,20 @@ ul{
    
     animation: slide 10s ease infinite;
   }
-   
-  
-  
-  
   @keyframes slide {
-     
     20% {
       margin-left: 0px;
     }
-   
     40% {
       margin-left: calc(-728px * 1);
     }
-   
     60% {
       margin-left: calc(-728px * 2);
     }
-   
     80% {
       margin-left: calc(-728px * 3);
     }
-      100%{
+    100%{
           margin-left: calc(-728px * 4);
       }
     
@@ -174,8 +177,8 @@ ul{
     bottom: -10px;
     background-color: #e91e63;
     height: 2px;
- box-sizing: border-box;
- width: 50px;
+    box-sizing: border-box;
+    width: 50px;
 }
 .footer-col ul li:not(:last-child){
     margin-bottom: 10px;
